@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#tituloPalavras{
+    color: #8DBEDA;
+    font-weight: 800;
+    font-size: 2vmax;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.palavrasCruzadas {
+    display: flex;
+    background-color:#13293D;
+    height: 120%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.containerPerguntas {
+    display: flex;
+    background-color: #517490;
+    width: 100%;
+    height: 60%;
+}
+
+.esquerda {
+    display: flex;
+    background-color: #8DBEDA;
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+    overflow: scroll;
+    font-size: 1vmax;
+}
+
+.esquerda span {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    height: 40%;
+    width: 100%;
+}
+
+.esquerda input {
+    background-color: #517490;
+    border: 0;
+    height: 50%;
+    width: 20% ;
+    font-size: 1vmax;
+    border-radius: 2vmax;
+    margin-top: 1%;
+}
+
+#titulo {
+    color: #13293D;
+    font-size: 2vmax;
+    font-weight: 800;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.perguntas {
+    display: flex;
+    flex-direction: column;
+    height: 550%;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #517490;
+    width: 20%;
+    font-size: 1.3vmax;
+    font-weight: 900;
+    color: #13293D;
+}
+
+.palavrasCruzadas input {
+    display: flex;
+    height: 150%;
+    width: 2.6%;
+    background-color: #8DBEDA;
+    border: 0;
+    border-radius: 1vmax;
+    text-align: center;
+    font-size: 1vmax;
+    font-weight: 800;
+    color: #295872;
+}
+
+.linha1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8%;
+    margin-top: 1%;
+}
+
+.linha2 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha3 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha4 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha5 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha6 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha7 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha8 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha9 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha10 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha11 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha12 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha13 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha14 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha15 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha16 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.linha17 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+
+.linha18 {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.inputInvisivel {
+    opacity: 0%;
+}
+
+.footer {
+    background-color: #13293D;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5vmax;
+    color: #8DBEDA;
+    font-weight: 600;
+}
+
+.footer span {
+    margin-bottom: 1%;
+}
+
+button {
+    position: absolute;
+    height: 5%;
+    width: 10%;
+    left: 67%;
+    margin-top: 1.5%;
+    border-radius: 1vmax;
+    border: 0;
+    font-size: 1.2vmax;
+    font-weight: 600;
+    background-color: #13293D;
+    color: #8DBEDA;
+    cursor: pointer;
+}
