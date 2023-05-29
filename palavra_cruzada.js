@@ -63,7 +63,7 @@ function verificar_palavras() {
     var inputs_quad_core = document.querySelectorAll(".quad_core");
     checkInputs(inputs_quad_core, quad_core_correta);
 
-    var threds_correta = ['T', 'H', 'R','E','D','S'];
+    var threds_correta = ['T', 'H', 'R','E','A','D','S'];
     var inputs_threds = document.querySelectorAll(".threds");
     checkInputs(inputs_threds, threds_correta);
 
