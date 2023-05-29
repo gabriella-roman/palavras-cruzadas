@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -24,7 +28,7 @@ body {
     display: flex;
     background-color: #517490;
     width: 100%;
-    height: 60%;
+    height: 80%;
 }
 
 .esquerda {
@@ -33,7 +37,8 @@ body {
     height: 100%;
     width: 80%;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     font-size: 1vmax;
 }
 
@@ -48,11 +53,10 @@ body {
 .esquerda input {
     background-color: #517490;
     border: 0;
-    height: 50%;
-    width: 20% ;
     font-size: 1vmax;
     border-radius: 2vmax;
     margin-top: 1%;
+    padding: 10px 20px;
 }
 
 #titulo {
@@ -67,7 +71,6 @@ body {
 .perguntas {
     display: flex;
     flex-direction: column;
-    height: 550%;
 }
 
 .direita {
@@ -88,156 +91,20 @@ body {
     width: 2.6%;
     background-color: #8DBEDA;
     border: 0;
-    border-radius: 1vmax;
+    border-radius: 8px;
     text-align: center;
     font-size: 1vmax;
     font-weight: 800;
     color: #295872;
 }
 
-.linha1 {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 8%;
-    margin-top: 1%;
-}
-
-.linha2 {
+.linha {
     display: flex;
     width: 100%;
     height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha3 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha4 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha5 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha6 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha7 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha8 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha9 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha10 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha11 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha12 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha13 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha14 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha15 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha16 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-.linha17 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
-}
-
-
-.linha18 {
-    display: flex;
-    width: 100%;
-    height: 8%;
-    margin-top: 2%;
-    justify-content: space-around;
+    margin-top: 16px;
+    justify-content: center;
+    gap: 3px;
 }
 
 .inputInvisivel {
