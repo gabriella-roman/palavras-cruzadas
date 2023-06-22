@@ -1,4 +1,6 @@
 function verificar_palavras() {
+
+
     var cpu_correta = ['C', 'P', 'U'];
     var inputs_cpu = document.querySelectorAll(".cpu"); //Selecionar todos os inputs com classe "cpu"
     checkInputs(inputs_cpu, cpu_correta); //Função está lá embaixo
@@ -97,3 +99,4 @@ function checkInputs(inputs, correto) {
       }
     }
 }
+

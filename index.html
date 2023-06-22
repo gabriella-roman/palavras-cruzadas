@@ -9,6 +9,7 @@
     <!-- commit pro github pages -->
 </head>
 <body>
+    <div class="global">
     <div class="palavrasCruzadas">
         <span id="tituloPalavras">PALAVRAS-CRUZADAS</span>
         <div class="linha">
@@ -463,119 +464,120 @@
         </div>
         <div class="linha"></div>
     </div>
+    <div class="direita">
+        <span id="palavraCPU">CPU</span>
+        <span id="palavraULA">ULA</span>
+        <span id="palavraREGISTRADORES">REGISTRADORES</span>
+        <span id="palavraRAM">RAM</span>
+        <span id="palavraROM">ROM</span>
+        <span id="palavraEPROM">EPROM</span>
+        <span id="palavraFLASH">FLASH</span>
+        <span id="palavraMDM">MEMÓRIA DE MASSA</span>
+        <span id="palavraDMA">DMA</span>
+        <span id="palavraCS">CS</span>
+        <span id="palavraAB">ADDRESS BUS</span>
+        <span id="palavraDATABUS">DATA BUS</span>
+        <span id="palavraI5">I5</span>
+        <span id="palavraI7">I7</span>
+        <span id="palavraDUALCORE">DUAL CORE</span>
+        <span id="palavraQUADCORE">QUAD CORE</span>
+        <span id="palavraTHREADS">THREADS</span>
+        <span id="CACHE">CACHE</span>
+    </div>
+</div>
     <div class="containerPerguntas">
         <div class="esquerda">
             <span id="titulo">PERGUNTAS:</span><button onclick="verificar_palavras()">VERIFICAR</button>
             <div class="perguntas">
                 <span id="perguntaCPU">
-                    1- <br>
+                    1 -
                     É o componente principal de um computador. Ela é responsável por executar instruções, realizar cálculos e coordenar as operações do sistema. <br>
                     É o cérebro do computador, processando dados e controlando outros componentes. <br>
                 </span>
                 <span id="perguntaULA">
-                    2- <br>
+                    2 - 
                     É um componente da CPU responsável por realizar operações lógicas (como comparações e operações booleanas) e operações aritméticas <br>
                     (como adição, subtração, multiplicação e divisão). <br>
                 </span>
                 <span id="perguntaREGISTRADORES">
-                    3- <br>
+                    3 - 
                     São componentes localizados dentro da CPU de um computador. Eles são usados para armazenar dados temporários e são extremamente rápidos <br>
                     em comparação com a memória principal.<br>
                 </span>
                 <span id="perguntaRAM">
-                    4- <br>
+                    4 - 
                     É uma memória volátil e de acesso aleatório, utilizada para armazenar temporariamente dados e instruções durante a execução de programas. <br>
                     É rápida e permite acesso rápido aos dados, mas perde as informações quando o computador é desligado. <br>
                 </span>
                 <span id="perguntaROM">
-                    5- <br>
+                    5 - 
                     É uma memória somente leitura, não volátil, que contém dados permanentes e instruções pré-gravadas. O conteúdo é definido durante a fabricação <br>
                     e não pode ser alterado pelo usuário. <br>
                 </span>
                 <span id="perguntaEPROM">
-                    6- <br>
+                    6 - 
                     É uma memória regravável do tipo ROM. Ela permite que os dados sejam apagados e regravados eletricamente, utilizando uma luz ultravioleta <br>
                     especial para apagar o conteúdo. <br>
                 </span>
                 <span id="perguntaFLASH">
-                    7- <br>
+                    7 - 
                     É uma memória não volátil e regravável eletricamente. Ela é amplamente utilizada em dispositivos como pen drives, cartões de memória, <br>
                     smartphones e SSDs (Solid State Drives).É mais lenta do que a RAM, mas oferece capacidade de armazenamento permanente e maior durabilidade. <br>
                 </span>
                 <span id="perguntaMDM">
-                    8- <br>
+                    8 - 
                     É um tipo de memória usada para armazenar grandes volumes de dados de forma permanente, mesmo quando o computador é desligado. <br> 
                     Exemplos incluem discos rígidos (HDDs), unidades de estado sólido (SSDs), discos ópticos (CDs, DVDs) e fitas magnéticas. <br> 
                     É mais lenta em comparação com a RAM, mas oferece capacidade de armazenamento em larga escala. <br>
                 </span>
                 <span id="perguntaDMA">
-                    9- <br>
+                    9 - 
                     É uma técnica que permite a transferência direta de dados entre dispositivos periféricos e a memória, sem a intervenção direta da CPU. <br>
                     É uma forma eficiente de mover dados rapidamente, reduzindo a carga de trabalho da CPU.<br>
                 </span>
                 <span id="perguntaCS">
-                    10- <br>
+                    10 - 
                     É um sinal utilizado para selecionar um dispositivo específico em um barramento ou conjunto de dispositivos. Ele indica qual dispositivo <br>
                     deve responder às comunicações e evita conflitos entre dispositivos. É comumente usado em interfaces de comunicação, permitindo a transferência <br>
                     correta de dados para o dispositivo selecionado.<br>
                 </span>
                 <span id="perguntaAB">
-                    11- <br>
+                    11 - 
                     Transmite os endereços de memória ou dispositivos, indica onde os dados estão localizados.  <br>
                 </span>
                 <span id="perguntaDATABUS">
-                    12- <br>
+                    12 - 
                     Transmite os dados em si entre a CPU, a memória e os dispositivos periféricos, transportando-os. <br>
                 </span>
                 <span id="perguntaI5">
-                    13- <br>
+                    13 - 
                     Oferece um bom equilíbrio entre desempenho e preço. Geralmente possui quatro núcleos, cache inteligente e frequências de clock variáveis. <br> 
                     Alguns modelos suportam Hyper-Threading para multitarefa. O TDP é moderado, resultando em menor consumo de energia.<br>
                 </span>
                 <span id="perguntaI7">
-                    14- <br>
+                    14 - 
                     É conhecido por alto desempenho em computadores de alto padrão. Possui quatro, seis ou oito núcleos, suporte a Hyper-Threading, cache avançado <br> 
                     e frequências de clock mais altas. TDP geralmente é maior que o i5 devido ao maior número de núcleos e frequências mais altas.<br>
                 </span>
                 <span id="perguntaDUALCORE">
-                    15- <br>
+                    15 - 
                     Possui dois núcleos de processamento. <br>
                 </span>
                 <span id="perguntaQUADCORE">
-                    16- <br>
+                    16 - 
                     Possui quatro núcleos de processamento. <br>
                 </span>
                 <span id="perguntaTHREADS">
-                    17- <br>
+                    17 - 
                     São unidades de execução dentro de um programa que permitem a realização simultânea de tarefas. Elas são usadas para executar partes diferentes do <br> 
                     programa de forma concorrente, aproveitando melhor os recursos do processador. <br>
                 </span>
                 <span id="perguntaCACHE">
-                    18- <br>
+                    18 -
                     É utilizada para armazenar temporariamente dados frequentemente acessados pela CPU, reduzindo o tempo de acesso à memória principal. <br> 
                     Ela melhora o desempenho do processador ao fornecer um acesso mais rápido aos dados, diminuindo a latência. <br>
                 </span>
             </div>
-        </div>
-        <div class="direita">
-            <span id="palavraCPU">CPU</span>
-            <span id="palavraULA">ULA</span>
-            <span id="palavraREGISTRADORES">REGISTRADORES</span>
-            <span id="palavraRAM">RAM</span>
-            <span id="palavraROM">ROM</span>
-            <span id="palavraEPROM">EPROM</span>
-            <span id="palavraFLASH">FLASH</span>
-            <span id="palavraMDM">MEMÓRIA DE MASSA</span>
-            <span id="palavraDMA">DMA</span>
-            <span id="palavraCS">CS</span>
-            <span id="palavraAB">ADDRESS BUS</span>
-            <span id="palavraDATABUS">DATA BUS</span>
-            <span id="palavraI5">I5</span>
-            <span id="palavraI7">I7</span>
-            <span id="palavraDUALCORE">DUAL CORE</span>
-            <span id="palavraQUADCORE">QUAD CORE</span>
-            <span id="palavraTHREADS">THREADS</span>
-            <span id="CACHE">CACHE</span>
         </div>
     </div>
 
